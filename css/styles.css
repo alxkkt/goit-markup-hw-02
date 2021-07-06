@@ -5,6 +5,10 @@ body {
   background: #ffffff;
 }
 
+:root {
+  --primary-text-color: #212121;
+}
+
 ul {
   list-style: none;
 }
@@ -17,7 +21,7 @@ a {
 
 .logo {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -25,7 +29,7 @@ a {
 }
 
 .menu {
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
   font-family: Roboto;
   font-weight: 500;
@@ -57,7 +61,7 @@ a {
 
 button {
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--primary-text-color);
   border-radius: 4px;
   font-family: Roboto;
   font-weight: 500;
@@ -78,7 +82,7 @@ button:focus {
 }
 
 h3 {
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
