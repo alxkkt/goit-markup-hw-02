@@ -1,6 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 
   background: #ffffff;
   color: #212121;
@@ -22,14 +21,13 @@ a {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .menu {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -45,10 +43,9 @@ a {
 
 .contacts-link-header {
   color: #757575;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -56,11 +53,11 @@ a {
 
 button {
   background-color: #f5f4fa;
+  font-family: inherit;
   border-radius: 4px;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   border-style: none;
   letter-spacing: 0.03em;
 }
@@ -76,16 +73,14 @@ button:focus {
 }
 
 h3 {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .feature-description {
   color: #757575;
-  font-family: Roboto;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -103,7 +98,6 @@ footer {
 
 .location {
   color: #ffffff;
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -111,7 +105,6 @@ footer {
 }
 
 .contacts-link-footer {
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
