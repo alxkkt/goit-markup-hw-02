@@ -180,7 +180,7 @@ a {
 
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--footer-color);
 }
 
